@@ -1,0 +1,51 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#408080;
+}
+header{
+	width:100%;
+	height:100px;
+	background-color:gray;
+	
+}
+.headercontainer, #sectionArea{
+	width:90%;
+	margin:auto;
+	padding-top:30px;
+}
+.logo{
+	float :left;
+}
+.navigationMenu{
+	float:right;
+}
+header li{
+	display:inline;
+	padding:0 20px;
+	
+}
+header a{
+	text-decoration:none;
+	color : black;
+	font-size:20px;
+}
+.sectionArea1,.sectionArea2,.sectionArea3{
+	width:30%;
+	float:left;
+	border:1px solid silver;
+	text-align:center;
+	margin-left:3%;
+	background-color:gray;
+	
+}
+footer{
+	text-align:center;
+	padding:25px 0;
+	position: fixed;
+    bottom: 0;
+	width:100%;
+	background-color:gray;
+}
